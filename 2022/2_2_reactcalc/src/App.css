@@ -1,0 +1,62 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+<<<<<<< HEAD
+=======
+  background-color: blue;
+>>>>>>> ubuntu
+}
+
+.calc_container {
+  border: 1px solid #000;
+  height: 600px;
+  width: 500px;
+  background-color: grey;
+<<<<<<< HEAD
+=======
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+>>>>>>> ubuntu
+}
+
+.screen {
+  background-color: white;
+<<<<<<< HEAD
+  height: 150px;
+  width: 100%;
+}
+
+.button_container {
+  border: 1px solid red;
+  height: 450px;
+  display: grid;
+  justify-items: center;
+=======
+  height: 100px;
+  width: 450px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.button_container {
+  height: 450px;
+  width: 450px;
+  display: grid;
+  align-items: center;
+>>>>>>> ubuntu
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px 0px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,27 @@
+.footerbox {
+  background-color: black;
+  height: 10em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulbox {
+  height: 6em;
+  list-style: none;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.libox {
+
+}
+
+.spanbox {
+  width: 100%;
+}

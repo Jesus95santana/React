@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.Index {
+  background-color: blue;
+}
+
+.App {
+  background-color: green;
+}
+
+.Color {
+  background-color: yellow;
+  button{
+    margin: 5px;
+  }
+}
+
+.Counter {
+  background-color: pink;
+}

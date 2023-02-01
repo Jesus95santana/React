@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Topbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  height: 50px;
+}
+
+.Topbox img {
+  height: 100%;
+}
+
+.Toplist {
+  color: white;
+  text-decoration: underline;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 10em;
+}
+
+main {
+  border: 5px solid green;
+  display: grid;
+  grid-template-areas:
+  'box1 box2'
+  'box3 box2';
+  height: 100vh;
+}
+
+.section1 {
+  grid-area: 'box1';
+  color: red;
+}
+
+.section3 {
+  grid-area: 'box1';
+  color: blue;
+}
+
+.section2 {
+  grid-area: 'box1';
+  color: green;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

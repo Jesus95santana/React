@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+%flexbox-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.appcontainer {
+  border: 1px solid yellow;
+  height: 300px;
+  width: 800px;
+  @extend %flexbox-center;
+}
+.parentcontainer, .childcontainer {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  @extend %flexbox-center;
+  flex-direction: column;
+
+  h1 {
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .parentboxes, .childboxes {
+    border: 1px solid green;
+    @extend %flexbox-center;
+
+    .box1, .box2, .box3, .box4 {
+      @extend %flexbox-center;
+      flex-direction: column;
+      border: 1px solid #000;
+      height: 100px;
+      width: 100px;
+      margin: 10px;
+    }
+  }
+}

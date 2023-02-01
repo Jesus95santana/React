@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parentcontainer .parentboxes .box1, .parentcontainer .parentboxes .box2, .parentcontainer .parentboxes .box3, .parentcontainer .parentboxes .box4, .parentcontainer .childboxes .box1, .parentcontainer .childboxes .box2, .parentcontainer .childboxes .box3, .parentcontainer .childboxes .box4, .childcontainer .parentboxes .box1, .childcontainer .parentboxes .box2, .childcontainer .parentboxes .box3, .childcontainer .parentboxes .box4, .childcontainer .childboxes .box1, .childcontainer .childboxes .box2, .childcontainer .childboxes .box3, .childcontainer .childboxes .box4, .parentcontainer .parentboxes, .parentcontainer .childboxes, .childcontainer .parentboxes, .childcontainer .childboxes, .parentcontainer, .childcontainer, .appcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appcontainer {
+  border: 1px solid yellow;
+  height: 300px;
+  width: 800px;
+}
+
+.parentcontainer, .childcontainer {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.parentcontainer h1, .childcontainer h1 {
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 30px;
+}
+.parentcontainer .parentboxes, .parentcontainer .childboxes, .childcontainer .parentboxes, .childcontainer .childboxes {
+  border: 1px solid green;
+}
+.parentcontainer .parentboxes .box1, .parentcontainer .parentboxes .box2, .parentcontainer .parentboxes .box3, .parentcontainer .parentboxes .box4, .parentcontainer .childboxes .box1, .parentcontainer .childboxes .box2, .parentcontainer .childboxes .box3, .parentcontainer .childboxes .box4, .childcontainer .parentboxes .box1, .childcontainer .parentboxes .box2, .childcontainer .parentboxes .box3, .childcontainer .parentboxes .box4, .childcontainer .childboxes .box1, .childcontainer .childboxes .box2, .childcontainer .childboxes .box3, .childcontainer .childboxes .box4 {
+  flex-direction: column;
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

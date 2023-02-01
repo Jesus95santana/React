@@ -1,0 +1,41 @@
+.container {
+  color: white;
+  background-color: black;
+  height: 6em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.figurebox {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10em;
+}
+
+.imgbox {
+  height: 60%;
+  object-fit: contain;
+}
+
+.h3box {
+  font-size: 25px;
+  text-align: center;
+}
+
+.ulbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 20em;
+  padding: 30px;
+}
+
+.libox {
+  background-color: grey;
+  padding: 3px 7px;
+  border-radius: 7px;
+}

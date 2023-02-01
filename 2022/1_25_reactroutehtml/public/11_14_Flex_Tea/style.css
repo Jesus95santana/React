@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo {
+  float: left;
+  height: 50px;
+}
+
+ul {
+  float: right;
+  height: 100%;
+  display: flex;
+}
+
+li {
+  display: inline-flex;
+  padding-left: 30px;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.mission {
+  background-image: url('./mission.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 69px;
+}
+
+.banner {
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.month {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 69px auto;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.coffeepic {
+  padding: 10px;
+}
+
+.coffeepic img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.locations {
+  background-image: url('./locations.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 40px;
+}
+
+.locations_wrapper {
+  display: inline-flex;
+  margin: 15px;
+}
+
+.locations_wrapper .box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.locations_wrapper .box h3 {
+  padding: 20px;
+}
+
+.locations_wrapper .box .minibox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.foot_wrap {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h5 {
+  padding: 20px;
+}
