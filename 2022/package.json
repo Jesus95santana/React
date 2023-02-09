@@ -1,0 +1,13 @@
+{
+	"name": "root",
+	"version": "1.0.0",
+	"description": "root package",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"updateCheck": " (cd 1_17_practicepage && npm outdated); (cd 2_7_twosumreact && npm outdated); (cd 3_4_effecthooks && npm outdated); (cd 3_6_objectsinstate_form && npm outdated); (cd 12_23_pizzamaker && npm outdated); (cd testingreact && npm outdated); (cd 2_2_reactcalc && npm outdated); (cd 1_17_petbook && npm outdated); (cd 1_23_ReactpdfViewer && npm outdated); (cd 12_12_buttonchangetext && npm outdated); (cd 12_23_statehooks && npm outdated); (cd 12_19_reacttodo && npm outdated); (cd 12_15_buttonbackcolorchange && npm outdated); (cd 2_4_reactpassvars && npm outdated); (cd 3_4_pizzamaker && npm outdated); (cd 1_25_reactroutehtml && npm outdated); (cd 1_8_pizzaform && npm outdated); (cd 3_4_reacttoggle && npm outdated); (cd 12_13_applephonepage && npm outdated); (cd 12_20_functionbackcolorchange && npm outdated); (cd componentmix && npm outdated); (cd 12_13_generallist && npm outdated); (cd 12_19_buttonclickercounter && npm outdated); (cd shortcut_handlechange && npm outdated); (cd 3_13_useEffect_realTimer && npm outdated); (cd hookpractice && npm outdated);",
+		"updateAll": " (cd 1_17_practicepage && npm update); (cd 2_7_twosumreact && npm update); (cd 3_4_effecthooks && npm update); (cd 3_6_objectsinstate_form && npm update); (cd 12_23_pizzamaker && npm update); (cd testingreact && npm update); (cd 2_2_reactcalc && npm update); (cd 1_17_petbook && npm update); (cd 1_23_ReactpdfViewer && npm update); (cd 12_12_buttonchangetext && npm update); (cd 12_23_statehooks && npm update); (cd 12_19_reacttodo && npm update); (cd 12_15_buttonbackcolorchange && npm update); (cd 2_4_reactpassvars && npm update); (cd 3_4_pizzamaker && npm update); (cd 1_25_reactroutehtml && npm update); (cd 1_8_pizzaform && npm update); (cd 3_4_reacttoggle && npm update); (cd 12_13_applephonepage && npm update); (cd 12_20_functionbackcolorchange && npm update); (cd componentmix && npm update); (cd 12_13_generallist && npm update); (cd 12_19_buttonclickercounter && npm update); (cd shortcut_handlechange && npm update); (cd 3_13_useEffect_realTimer && npm update); (cd hookpractice && npm update);"
+	},
+	"author": "",
+	"license": "ISC"
+}
